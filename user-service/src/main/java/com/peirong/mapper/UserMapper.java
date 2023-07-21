@@ -11,5 +11,8 @@ import java.util.List;
 public interface UserMapper extends BaseMapper<User> {
 
     @Select("SELECT * FROM user")
-    List<User> listAll();
+    List<User> list();
+
+    @Select("SELECT avatar FROM user WHERE id = #{id}")
+    String findAvatarById(String id);
 }
