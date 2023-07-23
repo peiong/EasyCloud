@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.util.Assert;
 
 import org.springframework.mail.SimpleMailMessage;
@@ -16,6 +17,7 @@ import java.util.Date;
 @Configuration
 @Data
 @Slf4j
+@PropertySource(value = {"classpath:config/mail-config.properties"})
 public class SendEmailUtil {
 
     @Resource

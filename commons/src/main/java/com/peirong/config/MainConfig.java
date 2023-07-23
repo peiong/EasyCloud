@@ -1,8 +1,9 @@
 package com.peirong.config;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
@@ -10,8 +11,9 @@ import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@Configuration
-public class ExecutorServiceConfig {
+@SpringBootConfiguration
+@PropertySource(value = {"classpath:config/mail-config.properties"})
+public class MainConfig {
     @Bean
     ExecutorService executorService() {
         return Executors.newCachedThreadPool();

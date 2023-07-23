@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d678b8-27cf-4a66-a0a2-4b98fe531682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/ExecutorServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/ExecutorServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/JavaMailSender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/ExecutorServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendSmsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendSmsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/mapper/FileMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/manage-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/ExecutorServiceConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.FileApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication">
     <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-service" />
       <option name="PACKAGE_NAME" value="" />
@@ -185,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689877049848</updated>
       <workItem from="1689877051153" duration="5539000" />
-      <workItem from="1689884840986" duration="25032000" />
+      <workItem from="1689884840986" duration="27635000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689877955971</created>

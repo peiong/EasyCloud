@@ -2,6 +2,7 @@ package com.peirong.utils;
 
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 import javax.crypto.Mac;
@@ -13,8 +14,10 @@ import java.util.Random;
 import java.util.TreeMap;
 
 @Component
+@PropertySource(value = {"classpath:config/sms-config.properties"})
 public class SendSmsUtil {
     private final static String CHARSET = "UTF-8";
+
     @Value("${SECRET_ID}")
     private String SECRET_ID;
     @Value("${SECRET_KEY}")
