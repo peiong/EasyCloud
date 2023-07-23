@@ -3,6 +3,7 @@ package com.peirong.utils;
 import com.peirong.entity.Email;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.Assert;
 
@@ -20,7 +21,8 @@ public class SendEmailUtil {
     @Resource
     private JavaMailSender javaMailSender;
 
-    private String sendFrom = "ezdrive@qq.com";
+    @Value("${spring.mail.username}")
+    private String sendFrom;
 
     public void checkMail(Email mailRequest) {
         Assert.notNull(mailRequest, "邮件请求不能为空");
