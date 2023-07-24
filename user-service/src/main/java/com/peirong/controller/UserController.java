@@ -2,6 +2,9 @@ package com.peirong.controller;
 
 import com.peirong.entity.User;
 import com.peirong.mapper.UserMapper;
+import com.peirong.service.UserService;
+import lombok.extern.slf4j.Slf4j;
+import org.jasypt.encryption.StringEncryptor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,9 +22,14 @@ import java.util.List;
 @Controller
 @RestController
 @RequestMapping("/user")
+@Slf4j
 public class UserController {
     @Resource
     private UserMapper userMapper;
+    @Resource
+    private UserService userService;
+    @Resource
+    private StringEncryptor stringEncryptor;
 
     private HttpServletResponse response;
 
@@ -32,7 +40,8 @@ public class UserController {
 
     @GetMapping("/list/{id}")
     User listById(@PathVariable("id") String id) {
-        return userMapper.selectById(id);
+        //return userMapper.selectById(id);
+        return userService.getUserById(id);
     }
 
     @GetMapping("/getAvatar/{id}")
@@ -51,4 +60,14 @@ public class UserController {
             throw new RuntimeException(e);
         }
     }
+
+//    @GetMapping("/encode")
+//    public void test() {
+//        String username = stringEncryptor.encrypt("Peirong");
+//        String password = stringEncryptor.encrypt("Re4030dd.");
+//        String url = stringEncryptor.encrypt("jdbc:mysql://1.15.89.164:3300/EasyDrive");
+//        log.info("username: {}", username);
+//        log.info("password: {}", password);
+//        log.info("url: {}", url);
+//    }
 }

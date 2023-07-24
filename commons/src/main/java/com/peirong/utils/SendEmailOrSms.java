@@ -4,6 +4,7 @@ import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import org.springframework.context.annotation.Configuration;
 
+
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -12,7 +13,7 @@ import java.util.Random;
 import java.util.concurrent.ExecutorService;
 
 @Configuration
-public class SendEmailMessage {
+public class SendEmailOrSms {
 
     @Resource
     private HttpServletRequest request;
