@@ -5,51 +5,43 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d678b8-27cf-4a66-a0a2-4b98fe531682" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/video-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/VideoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/FileServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/FileApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/mapper/FileMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/FileService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailOrSms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/Email.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/Email.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/File.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/File.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/service/Impl/SendEmailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/service/Impl/SendEmailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/service/SendEmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/service/SendEmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailMessage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/java/com/peirong/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/java/com/peirong/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/peirong/EurekaApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/FileApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/com/peirong/FileApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/mapper/FileMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/com/peirong/mapper/FileMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/FileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/FileService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/src/main/java/com/peirong/ManageApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage-service/target/classes/com/peirong/ManageApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/FileApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/mapper/FileMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/service/FileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/java/com/peirong/service/Impl/FileServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/FileApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/mapper/FileMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/FileService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/Security.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/Security.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +107,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaApplication-01">
+  <component name="RunManager" selected="Spring Boot.VideoApplication-02">
     <configuration name="EurekaApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Eureka集群" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -144,23 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="file-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.FileApplication" />
-      <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=&quot;SIL21KrK56S7JWBJWDLKM43C&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.peirong.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="用户服务">
+    <configuration name="UserApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="用户服务" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
@@ -169,11 +145,17 @@
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.UserApplication" />
       <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=&quot;SIL21KrK56S7JWBJWDLKM43C&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.peirong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserApplication-02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="用户服务" temporary="true">
+    <configuration name="UserApplication-02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="用户服务">
       <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
@@ -181,6 +163,17 @@
       </envs>
       <module name="user-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.UserApplication" />
+      <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=&quot;SIL21KrK56S7JWBJWDLKM43C&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideoApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="视频服务" temporary="true">
+      <envs>
+        <env name="server.port" value="8050" />
+      </envs>
+      <module name="video-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.VideoApplication" />
       <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=&quot;SIL21KrK56S7JWBJWDLKM43C&quot;" />
       <extension name="coverage">
         <pattern>
@@ -192,17 +185,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VideoApplication-02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="视频服务">
+      <envs>
+        <env name="server.port" value="8060" />
+      </envs>
+      <module name="video-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.VideoApplication" />
+      <option name="VM_PARAMETERS" value="-Djasypt.encryptor.password=&quot;SIL21KrK56S7JWBJWDLKM43C&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.UserApplication-01" />
-      <item itemvalue="Spring Boot.UserApplication-02" />
       <item itemvalue="Spring Boot.EurekaApplication-02" />
       <item itemvalue="Spring Boot.EurekaApplication-01" />
-      <item itemvalue="Spring Boot.FileApplication" />
+      <item itemvalue="Spring Boot.UserApplication-02" />
+      <item itemvalue="Spring Boot.UserApplication-01" />
+      <item itemvalue="Spring Boot.VideoApplication-02" />
+      <item itemvalue="Spring Boot.VideoApplication-01" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.UserApplication-02" />
-        <item itemvalue="Spring Boot.FileApplication" />
+        <item itemvalue="Spring Boot.VideoApplication-01" />
+        <item itemvalue="Spring Boot.UserApplication-01" />
         <item itemvalue="Spring Boot.EurekaApplication-01" />
       </list>
     </recent_temporary>
@@ -216,7 +221,7 @@
       <option name="presentableId" value="Default" />
       <updated>1689877049848</updated>
       <workItem from="1689877051153" duration="5539000" />
-      <workItem from="1689884840986" duration="47601000" />
+      <workItem from="1689884840986" duration="52851000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689877955971</created>

@@ -13,12 +13,12 @@ import javax.annotation.Resource;
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
     @Resource
-    private RestTemplate restTemplate;
+    private RestTemplate template;
     @Resource
     private UserMapper userMapper;
 
     @Override
     public User getUserById(String id) {
-        return restTemplate.getForObject("http://userservice/user/list" + id, User.class);
+        return template.getForObject("http://userservice/user/list" + id, User.class);
     }
 }

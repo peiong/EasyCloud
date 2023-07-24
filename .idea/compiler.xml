@@ -8,13 +8,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="user-service" />
-        <module name="file-service" />
         <module name="eureka-server" />
+        <module name="video-service" />
         <module name="commons" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="eureka" target="1.8" />
+      <module name="file-service" target="1.8" />
       <module name="manage-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +28,7 @@
       <module name="file-service" options="-parameters" />
       <module name="manage-service" options="-parameters" />
       <module name="user-service" options="-parameters" />
+      <module name="video-service" options="-parameters" />
     </option>
   </component>
 </project>

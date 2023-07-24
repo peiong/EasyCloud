@@ -2,8 +2,8 @@ package com.peirong.config;
 
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
@@ -13,12 +13,18 @@ import java.util.Properties;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-@SpringBootConfiguration
+@Configuration
 @PropertySource(value = {"classpath:config/mail-config.properties"})
 public class MainConfig {
     @Bean
-    ExecutorService executorService() {
+    public ExecutorService executorService() {
         return Executors.newCachedThreadPool();
+    }
+
+    @Bean
+    @LoadBalanced
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
     }
 
     @Value("${spring.mail.password}")
@@ -41,11 +47,5 @@ public class MainConfig {
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         return mailSender;
-    }
-
-    @Bean
-    @LoadBalanced
-    public RestTemplate restTemplate() {
-        return new RestTemplate();
     }
 }
