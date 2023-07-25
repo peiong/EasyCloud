@@ -9,6 +9,4 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
-    @Select("SELECT * FROM user")
-    List<User> list();
 }

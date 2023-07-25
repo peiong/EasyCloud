@@ -9,6 +9,6 @@ import java.util.List;
 
 @Mapper
 public interface FileMapper extends BaseMapper<File> {
-    @Select("SELECT * FROM file")
-    List<File> list();
+    @Select("SELECT * FROM file where uid = #{uid})")
+    List<File> selectByUid(String uid);
 }

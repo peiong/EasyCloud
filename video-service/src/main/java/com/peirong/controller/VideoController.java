@@ -1,26 +1,25 @@
 package com.peirong.controller;
 
-import com.peirong.entity.File;
-import com.peirong.mapper.FileMapper;
+import com.peirong.entity.User;
+import com.peirong.service.Impl.VideoServiceImpl;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
-import java.util.List;
 
 @Controller
 @RestController
 @RequestMapping("/file")
-public class FileController {
+public class VideoController {
 
     @Resource
-    private FileMapper fileMapper;
+    private VideoServiceImpl videoService;
 
-    @GetMapping("/list")
-    List<File> listAll() {
-        System.out.println(fileMapper.list());
-        return fileMapper.list();
+    @GetMapping("/list/{uid}")
+    User listUser(@PathVariable String uid) {
+        return videoService.getUserByUid(uid);
     }
 }
