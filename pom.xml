@@ -19,11 +19,41 @@
         <module>user-service</module>
         <module>video-service</module>
 		<module>commons</module>
+		<module>gateway-server</module>
 	</modules>
     <properties>
 		<java.version>18</java.version>
 		<spring-cloud.version>2022.0.1</spring-cloud.version>
 	</properties>
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-dependencies</artifactId>
+				<version>2022.0.3</version>
+			</dependency>
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-boot-starter</artifactId>
+				<version>3.5.2</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+				<version>3.0.5</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-gateway</artifactId>
+				<version>4.0.6</version>
+			</dependency>
+			<dependency>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-starter-openfeign</artifactId>
+				<version>3.0.5</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -40,11 +70,6 @@
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 		</dependency>
-
-<!--		<dependency>-->
-<!--			<groupId>org.springframework.boot</groupId>-->
-<!--			<artifactId>spring-boot-starter-webflux</artifactId>-->
-<!--		</dependency>-->
 
 		<dependency>
 			<groupId>com.alibaba.fastjson2</groupId>
@@ -65,12 +90,6 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-tomcat</artifactId>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-dependencies</artifactId>
 			<version>${spring-cloud.version}</version>
@@ -84,23 +103,6 @@
 		</dependency>
 
 	</dependencies>
-
-<!--	多环境配置-->
-<!--	<profiles>-->
-<!--		<profile>-->
-<!--			<id>dev</id>-->
-<!--			<activation>-->
-<!--				<activeByDefault>true</activeByDefault>-->
-<!--			</activation>-->
-<!--		</profile>-->
-
-<!--		<profile>-->
-<!--			<id>prod</id>-->
-<!--			<activation>-->
-<!--				<activeByDefault>false</activeByDefault>-->
-<!--			</activation>-->
-<!--		</profile>-->
-<!--	</profiles>-->
 
 	<build>
 		<plugins>

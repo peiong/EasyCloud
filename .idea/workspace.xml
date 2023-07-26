@@ -5,16 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d678b8-27cf-4a66-a0a2-4b98fe531682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/FileServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/FileServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -52,8 +65,8 @@
     "WebServerToolWindowFactoryState": "false",
     "dart.analysis.tool.window.visible": "false",
     "deletionFromPopupRequiresConfirmation": "false",
-    "jdk.selected.JAVA_MODULE": "zulu-1.8",
-    "last_opened_file_path": "/Users/peirong/IdeaProjects/EasyCloud/user-service/src/main/resources",
+    "jdk.selected.JAVA_MODULE": "open-18",
+    "last_opened_file_path": "/Users/peirong/IdeaProjects/EasyCloud/gateway-server/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,11 +77,16 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "MavenSettings",
     "show.migrate.to.gradle.popup": "false",
+    "spring.configuration.checksum": "94132b808c453c647226307d602ec1d5",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gateway-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/manage-service/src/main/resources" />
     </key>
@@ -80,7 +98,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.VideoApplication-02">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
     <configuration name="EurekaApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Eureka集群" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -105,6 +123,19 @@
       </envs>
       <module name="eureka-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="gateway-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.GatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.peirong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,9 +207,11 @@
       <item itemvalue="Spring Boot.UserApplication-01" />
       <item itemvalue="Spring Boot.VideoApplication-02" />
       <item itemvalue="Spring Boot.VideoApplication-01" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.UserApplication-01" />
         <item itemvalue="Spring Boot.VideoApplication-01" />
         <item itemvalue="Spring Boot.EurekaApplication-01" />
@@ -194,7 +227,9 @@
       <option name="presentableId" value="Default" />
       <updated>1689877049848</updated>
       <workItem from="1689877051153" duration="5539000" />
-      <workItem from="1689884840986" duration="55642000" />
+      <workItem from="1689884840986" duration="58012000" />
+      <workItem from="1690308785440" duration="5928000" />
+      <workItem from="1690354336179" duration="907000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689877955971</created>

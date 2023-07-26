@@ -30,6 +30,6 @@ public class UserController {
 
     @GetMapping("/list/{uid}")
     User listUser(@PathVariable String uid) {
-        return userService.getUserByUid(uid);
+        return userMapper.getUserByUid(uid);
     }
 }

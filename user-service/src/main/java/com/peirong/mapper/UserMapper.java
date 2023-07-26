@@ -9,4 +9,7 @@ import java.util.List;
 
 @Mapper
 public interface UserMapper extends BaseMapper<User> {
+
+    @Select("SELECT * FROM user where id = #{id}")
+    User getUserByUid(String id);
 }

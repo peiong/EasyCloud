@@ -9,12 +9,6 @@ import java.util.concurrent.Executors;
 
 @Configuration
 public class MainConfig {
-
-    @Bean
-    public RestTemplate template() {
-        return new RestTemplate();
-    }
-
     @Bean
     public ExecutorService executorService() {
         return Executors.newCachedThreadPool();
