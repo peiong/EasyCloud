@@ -1,4 +1,4 @@
-package com.peirong.utils;
+package com.peirong.util;
 
 import com.peirong.entity.Email;
 import lombok.Data;

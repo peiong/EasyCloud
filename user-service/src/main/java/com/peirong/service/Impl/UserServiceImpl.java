@@ -1,6 +1,6 @@
 package com.peirong.service.Impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.mybatisflex.spring.service.impl.ServiceImpl;
 import com.peirong.entity.User;
 import com.peirong.mapper.UserMapper;
 import com.peirong.service.UserService;

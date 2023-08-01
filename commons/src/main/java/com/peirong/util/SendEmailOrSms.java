@@ -1,7 +1,8 @@
-package com.peirong.utils;
+package com.peirong.util;
 
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
+
 import org.springframework.context.annotation.Configuration;
 
 

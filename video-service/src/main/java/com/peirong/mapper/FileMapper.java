@@ -1,6 +1,6 @@
 package com.peirong.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.mybatisflex.core.BaseMapper;
 import com.peirong.entity.File;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Select;

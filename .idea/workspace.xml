@@ -5,29 +5,53 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d678b8-27cf-4a66-a0a2-4b98fe531682" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailOrSms.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendEmailOrSms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendEmailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendSmsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendSmsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailOrSms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/peirong/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/peirong/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-server/target/classes/com/peirong/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/target/classes/com/peirong/GatewayApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/Security.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/Security.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/target/test-classes/UserServiceTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/VideoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/VideoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/FileApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/VideoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/VideoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/VideoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/mapper/FileMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/mapper/FileMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/VideoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/client/UserClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +66,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <branch-grouping />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2SqrENcvDxSTbmQZCK0cO2hwDaf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -54,33 +85,34 @@
     <option name="showLibraryContents" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "jdk.selected.JAVA_MODULE": "open-18",
-    "last_opened_file_path": "/Users/peirong/IdeaProjects/EasyCloud/gateway-server/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "show.migrate.to.gradle.popup": "false",
-    "spring.configuration.checksum": "94132b808c453c647226307d602ec1d5",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;open-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/peirong/IdeaProjects/EasyCloud/gateway-server/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;457f529910b9de4463e4b5654d23b8bf&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -90,6 +122,9 @@
       <recent name="$PROJECT_DIR$/user-service/src/main/resources" />
       <recent name="$PROJECT_DIR$/manage-service/src/main/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.peirong.controller" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -98,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+  <component name="RunManager" selected="Spring Boot.UserApplication-02">
     <configuration name="EurekaApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Eureka集群" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -118,6 +153,8 @@
       </method>
     </configuration>
     <configuration name="EurekaApplication-02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="Eureka集群">
+      <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
         <env name="spring.profiles.active" value="02" />
       </envs>
@@ -128,6 +165,8 @@
       </method>
     </configuration>
     <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="gateway-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.peirong.GatewayApplication" />
       <extension name="coverage">
@@ -173,6 +212,8 @@
       </method>
     </configuration>
     <configuration name="VideoApplication-01" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="视频服务" temporary="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
         <env name="server.port" value="8050" />
       </envs>
@@ -190,6 +231,8 @@
       </method>
     </configuration>
     <configuration name="VideoApplication-02" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" folderName="视频服务">
+      <option name="ALTERNATIVE_JRE_PATH" value="open-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <envs>
         <env name="server.port" value="8060" />
       </envs>
@@ -229,7 +272,12 @@
       <workItem from="1689877051153" duration="5539000" />
       <workItem from="1689884840986" duration="58012000" />
       <workItem from="1690308785440" duration="5928000" />
-      <workItem from="1690354336179" duration="907000" />
+      <workItem from="1690354336179" duration="10854000" />
+      <workItem from="1690389551937" duration="615000" />
+      <workItem from="1690390264545" duration="911000" />
+      <workItem from="1690392126993" duration="436000" />
+      <workItem from="1690392600609" duration="12964000" />
+      <workItem from="1690881621338" duration="3546000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689877955971</created>
@@ -262,5 +310,15 @@
     <MESSAGE value="init" />
     <MESSAGE value="commons" />
     <option name="LAST_COMMIT_MESSAGE" value="commons" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.BeanCreationException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

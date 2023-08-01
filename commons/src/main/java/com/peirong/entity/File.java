@@ -1,20 +1,19 @@
 package com.peirong.entity;
 
 
-import com.baomidou.mybatisplus.annotation.TableField;
-import com.baomidou.mybatisplus.annotation.TableName;
+
+import com.mybatisflex.annotation.Id;
+import com.mybatisflex.annotation.Table;
 import lombok.Data;
 
 @Data
-@TableName("file")
+@Table("db_file")
 public class File {
+
+    @Id
     private Long id;
-    private Long uid;
     private String filename;
     private String filepath;
     private String filesize;
-    @TableField(value = "upload_time")
     private String uploadTime;
-    @TableField(value = "update_time")
-    private String updateTime;
 }

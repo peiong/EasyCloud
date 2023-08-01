@@ -1,4 +1,4 @@
-package com.peirong.utils;
+package com.peirong.util;
 
 
 import org.springframework.beans.factory.annotation.Value;

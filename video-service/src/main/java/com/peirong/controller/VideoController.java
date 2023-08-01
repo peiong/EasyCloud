@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
+
 @Controller
 @RestController
 @RequestMapping("/file")
@@ -20,6 +21,7 @@ public class VideoController {
 
     @GetMapping("/list/{uid}")
     User listUser(@PathVariable String uid) {
+        System.out.println(videoService.getUserByUid(uid));
         return videoService.getUserByUid(uid);
     }
 }
