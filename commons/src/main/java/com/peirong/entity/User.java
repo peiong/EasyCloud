@@ -14,9 +14,9 @@ public class User {
     private String phone;
     private String email;
 
-    // 不查询该字段
     private String password;
-    private String avatar;
+
+    //private String avatar;
     private Date createdAt;
     private Date updateTime;
 }

@@ -1,6 +1,5 @@
 package com.peirong.config;
 
-import org.jasypt.encryption.StringEncryptor;
 import org.springframework.cloud.openfeign.FeignClientProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

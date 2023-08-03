@@ -26,10 +26,6 @@ public class UserController {
     private StringEncryptor stringEncryptor;
 
     private final CacheService cacheService;
-//    @GetMapping("/list")
-//    List<User> listAll() {
-//        return userMapper.selectList(null);
-//    }
 
     @GetMapping("/list/{uid}")
     User listUser(@PathVariable String uid) {
@@ -40,8 +36,8 @@ public class UserController {
     public int multiply(@PathVariable int a, @PathVariable int b) {
         return cacheService.mutiply(a, b);
     }
-    @GetMapping("/test")
-    public String test() {
-        return stringEncryptor.encrypt("jdbc:mysql://1.15.89.164:3300/db_video?&characterEncoding=utf8&serverTimezone=GMT%2B8");
-    }
+//    @GetMapping("/test")
+//    public String test() {
+//        return stringEncryptor.encrypt("jdbc:mysql://1.15.89.164:3300/db_video?&characterEncoding=utf8&serverTimezone=GMT%2B8");
+//    }
 }

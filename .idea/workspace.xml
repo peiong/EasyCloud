@@ -5,53 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30d678b8-27cf-4a66-a0a2-4b98fe531682" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/commons/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/File.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailOrSms.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendEmailOrSms.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendEmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendEmailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/src/main/java/com/peirong/utils/SendSmsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/commons/src/main/java/com/peirong/util/SendSmsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/commons/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailOrSms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendEmailUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/target/classes/com/peirong/utils/SendSmsUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/src/main/java/com/peirong/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/src/main/java/com/peirong/GatewayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-server/target/classes/com/peirong/GatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-server/target/classes/com/peirong/GatewayApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/MainConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/config/Security.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/mapper/UserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/java/com/peirong/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/UserApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/MainConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/config/Security.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/target/classes/com/peirong/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user-service/target/test-classes/UserServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/VideoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/controller/VideoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/mapper/FileMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/Impl/VideoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/VideoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/VideoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/src/main/java/com/peirong/service/client/UserClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/FileApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/VideoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/VideoApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/VideoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/controller/VideoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/mapper/FileMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/mapper/FileMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/Impl/VideoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/VideoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/VideoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/client/UserClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/video-service/target/classes/com/peirong/service/client/UserClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -277,7 +235,8 @@
       <workItem from="1690390264545" duration="911000" />
       <workItem from="1690392126993" duration="436000" />
       <workItem from="1690392600609" duration="12964000" />
-      <workItem from="1690881621338" duration="3546000" />
+      <workItem from="1690881621338" duration="8994000" />
+      <workItem from="1691056659361" duration="123000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1689877955971</created>
